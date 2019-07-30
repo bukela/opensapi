@@ -1,0 +1,217 @@
+
+.table{
+    width: 100%;
+}
+
+.table__header {
+    width: 100%;
+    display: inline-block;
+    padding: 15px 0;
+    border: 1px solid #000;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.table__header th{
+    width: 100%;
+    display: inline-block;
+    font-size: 25px!important;
+    font-weight: 700!important;
+    color: #000;
+    text-align: center;
+    text-transform: capitalize!important;
+    padding: 0!important;
+    border-top: 0!important;
+}
+
+.table__subheader{
+    width: 100%;
+    display: inline-block;
+    padding: 10px 0;
+    background: rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.table__subheader th{
+    width: 100%;
+    display: inline-block;
+    font-size: 18px!important;
+    font-weight: 700!important;
+    color: #000;
+    text-align: center;
+    text-transform: capitalize!important;
+    padding: 0!important;
+    border-top: 0!important;
+}
+.table__single {
+    padding: 15px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.table__single td {
+    display: inline-block;
+    margin-bottom: 0;
+    color: #000;
+    width: 12%;
+    white-space: normal;
+}
+
+.table__single td:nth-of-type(2){
+    width: 40%;
+}
+
+.table-bottom__single{
+    padding: 15px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.table-bottom__single td{
+    display: inline-block;
+    margin-bottom: 0;
+    color: #000;
+}
+
+.table-bottom__single td:nth-of-type(1){
+    width: 80%;
+}
+
+.table-bottom__single td:nth-of-type(2){
+    width: 20%;
+}
+
+@media (max-width: 767px){
+    .table__single td{
+        width: 16.66%;
+    }
+    .table__single td:nth-of-type(2){
+        width: 16.66%;
+    }
+}
+
+/* Logg section*/
+
+.log-block {
+
+    background: #333;
+    margin: 10px 0;
+    padding: 2px 30px;
+
+}
+
+.log-block p{
+
+    display: inline-block;
+
+    font-size: 24px;
+    color: #fff;
+    margin: 0;
+
+}
+
+.costs-sum {
+    background-color: #f7f4f8;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.report-head {
+    background-color: #f7f4f8;
+}
+
+.costs-head {
+    background-color: #5c90d2;
+    color: aliceblue;
+}
+
+.costs-categories {
+    background-color: #fcd5b5;
+    font-weight: 700;
+}
+
+.summary-head {
+    background-color: #5c90d2;
+    color: aliceblue;
+}
+
+.cost-edit {
+    background-color: #f7f4f8;
+}
+
+.table-project-info {
+    font-size: 1.3em;
+    font-weight: 700;
+    background-color: #5c90d2;
+    color: aliceblue;
+}
+
+.search-users {
+    width: 60% !important;
+    display: inline-block !important;
+}
+
+#narrative-report {
+    background-color: #f8f7f5;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.narrative-title {
+    font-size: 2em;
+}
+
+.arrow-rotate {
+    transform: rotate(90deg);
+}
+
+a.narrative-button {
+    color: #343A40;
+    font-size: 1.2em;
+    background: #f8f7f5;
+    display: block;
+    cursor: pointer;
+    padding: 3px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+a.narrative-button:hover {
+    background: #f1f1f1;
+}
+
+.narrative-table th{
+    background: #5C90D2;
+    color: #f7f4f8
+}
+
+.narrative-heading {
+    background: #FCD5B5 !important;
+    font-weight: 600;
+}
+
+.user-form-avatar {
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+}
+
+.user-form-info {
+    display: inline-block;
+    width: 60%;
+}
+
+.user-form-check {
+    display: inline-block;
+    width: 7%;
+}
+
+.form-group.required label:after {
+    content:" *";
+    color:red;
+  }
+.summary-by-type th {
+    font-size: 14px !important;
+}
+
+.summary-by-type {
+    background-color: #f8aa6a !important;
+    color: #fff;
+}

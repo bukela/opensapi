@@ -1,0 +1,16 @@
+<script>
+        $(function(){
+            $("#donator_select").hide();
+            $("#org_select").hide();
+            $('.radio-select-don').click(function(){
+                $("#donator_select").show();
+                $("#org_select").hide();
+                $("#organization_selector").val("");
+            });
+            $('.radio-select-org').click(function(){
+                $("#org_select").show();
+                $("#donator_select").hide();
+                $("#donator_selector").val("");
+            });
+          });
+</script>
